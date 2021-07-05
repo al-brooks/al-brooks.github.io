@@ -3,10 +3,10 @@ let myImage = document.querySelector('img');
 myImage.onclick = function () {
   let mySrc = myImage.getAttribute('src');
   if (mySrc === 'images/photo-1.jpeg') {
-    myImage.setAttribute('src', 'images/city-view.jpg');
-  } else if (mySrc === 'images/city-view.jpg') {
-    myImage.setAttribute('src', 'images/after-rain.jpg');
-  } else if (mySrc === 'images/after-rain.jpg') {
+    myImage.setAttribute('src', 'images/city-view.JPG');
+  } else if (mySrc === 'images/city-view.JPG') {
+    myImage.setAttribute('src', 'images/after-rain.JPG');
+  } else if (mySrc === 'images/after-rain.JPG') {
     myImage.setAttribute('src', 'images/photo-1.jpeg');
   } else {
     myImage.setAttribute('src', 'images/photo-1.jpeg');
